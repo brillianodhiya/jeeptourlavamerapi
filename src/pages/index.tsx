@@ -222,9 +222,9 @@ export default function Home() {
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   >
                     <path d="M5 12h14"></path>
                     <path d="m12 5 7 7-7 7"></path>
@@ -716,9 +716,9 @@ export default function Home() {
                         viewBox="0 0 24 24"
                         fill="none"
                         stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       >
                         <polyline points="20 6 9 17 4 12" />
                       </svg>
@@ -740,9 +740,9 @@ export default function Home() {
                         viewBox="0 0 24 24"
                         fill="none"
                         stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       >
                         <polyline points="20 6 9 17 4 12" />
                       </svg>
@@ -787,7 +787,7 @@ export default function Home() {
                     />
                   </div>
                   <div className="absolute bottom-0 start-0 end-0 p-2 sm:p-4">
-                    <div className="text-sm font-bold text-gray-800 rounded-lg bg-white p-2 md:text-lg">
+                    <div className="text-sm font-bold text-gray-800 rounded-lg bg-white p-2 md:text-lg text-center">
                       Spot Foto Jeep
                     </div>
                   </div>
@@ -812,7 +812,7 @@ export default function Home() {
                     />
                   </div>
                   <div className="absolute bottom-0 start-0 end-0 p-2 sm:p-4">
-                    <div className="text-sm font-bold text-gray-800 rounded-lg bg-white p-2 md:text-lg">
+                    <div className="text-sm font-bold text-gray-800 rounded-lg bg-white p-2 md:text-lg text-center">
                       Bungker Kaliadem
                     </div>
                   </div>
@@ -837,7 +837,7 @@ export default function Home() {
                     />
                   </div>
                   <div className="absolute bottom-0 start-0 end-0 p-2 sm:p-4">
-                    <div className="text-sm font-bold text-gray-800 rounded-lg bg-white p-2 md:text-lg">
+                    <div className="text-sm font-bold text-gray-800 rounded-lg bg-white p-2 md:text-lg text-center">
                       Batu Alien
                     </div>
                   </div>
@@ -862,7 +862,7 @@ export default function Home() {
                     />
                   </div>
                   <div className="absolute bottom-0 start-0 end-0 p-2 sm:p-4">
-                    <div className="text-sm font-bold text-gray-800 rounded-lg bg-white p-2 md:text-lg">
+                    <div className="text-sm font-bold text-gray-800 rounded-lg bg-white p-2 md:text-lg text-center">
                       The Lost World Park
                     </div>
                   </div>
@@ -887,7 +887,7 @@ export default function Home() {
                     />
                   </div>
                   <div className="absolute bottom-0 start-0 end-0 p-2 sm:p-4">
-                    <div className="text-sm font-bold text-gray-800 rounded-lg bg-white p-2 md:text-lg">
+                    <div className="text-sm font-bold text-gray-800 rounded-lg bg-white p-2 md:text-lg text-center">
                       Petilasan Rumah Mbah Mardjan
                     </div>
                   </div>
@@ -911,7 +911,7 @@ export default function Home() {
                     />
                   </div>
                   <div className="absolute bottom-0 start-0 end-0 p-2 sm:p-4">
-                    <div className="text-sm font-bold text-gray-800 rounded-lg bg-white p-2 md:text-lg">
+                    <div className="text-sm font-bold text-gray-800 rounded-lg bg-white p-2 md:text-lg text-center">
                       Museum Mini Sisa Hartaku
                     </div>
                   </div>
@@ -936,7 +936,7 @@ export default function Home() {
                     />
                   </div>
                   <div className="absolute bottom-0 start-0 end-0 p-2 sm:p-4">
-                    <div className="text-sm font-bold text-gray-800 rounded-lg bg-white p-2 md:text-lg">
+                    <div className="text-sm font-bold text-gray-800 rounded-lg bg-white p-2 md:text-lg text-center">
                       Track Air Kali Kuning
                     </div>
                   </div>
@@ -961,7 +961,7 @@ export default function Home() {
                     />
                   </div>
                   <div className="absolute bottom-0 start-0 end-0 p-2 sm:p-4">
-                    <div className="text-sm font-bold text-gray-800 rounded-lg bg-white p-2 md:text-lg">
+                    <div className="text-sm font-bold text-gray-800 rounded-lg bg-white p-2 md:text-lg text-center">
                       Sunrise Merapi
                     </div>
                   </div>
@@ -986,7 +986,7 @@ export default function Home() {
                     />
                   </div>
                   <div className="absolute bottom-0 start-0 end-0 p-2 sm:p-4">
-                    <div className="text-sm font-bold text-gray-800 rounded-lg bg-white p-2 md:text-lg">
+                    <div className="text-sm font-bold text-gray-800 rounded-lg bg-white p-2 md:text-lg text-center">
                       Plunyon Kalikuning
                     </div>
                   </div>
@@ -1011,7 +1011,7 @@ export default function Home() {
                     />
                   </div>
                   <div className="absolute bottom-0 start-0 end-0 p-2 sm:p-4">
-                    <div className="text-sm font-bold text-gray-800 rounded-lg bg-white p-2 md:text-lg">
+                    <div className="text-sm font-bold text-gray-800 rounded-lg bg-white p-2 md:text-lg text-center">
                       Stone Henge
                     </div>
                   </div>
@@ -1039,8 +1039,8 @@ export default function Home() {
               fill="currentColor"
             />
             <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
+              fillRule="evenodd"
+              clipRule="evenodd"
               d="M12 23C10.7764 23 10.0994 22.8687 9 22.5L6.89443 23.5528C5.56462 24.2177 4 23.2507 4 21.7639V19.5C1.84655 17.492 1 15.1767 1 12C1 5.92487 5.92487 1 12 1C18.0751 1 23 5.92487 23 12C23 18.0751 18.0751 23 12 23ZM6 18.6303L5.36395 18.0372C3.69087 16.4772 3 14.7331 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12C21 16.9706 16.9706 21 12 21C11.0143 21 10.552 20.911 9.63595 20.6038L8.84847 20.3397L6 21.7639V18.6303Z"
               fill="currentColor"
             />
