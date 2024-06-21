@@ -973,13 +973,13 @@ export default function Home() {
                   className="group relative block rounded-xl overflow-hidden"
                   // href="#"
                   onClick={() => {
-                    openZoomedImage("/plunyon kalikuning.jpeg");
+                    openZoomedImage("/plunyon kalikuning2.jpeg");
                   }}
                 >
                   <div className="aspect-w-12 aspect-h-7 sm:aspect-none rounded-xl overflow-hidden">
                     <Image
                       className="group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl w-full object-cover h-52 md:h-[50vh]"
-                      src="/plunyon kalikuning.jpeg"
+                      src="/plunyon kalikuning2.jpeg"
                       alt="Plunyon Kalikuning"
                       width={1000}
                       height={1000}
