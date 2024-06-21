@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 import { useEffect, useState } from "react";
 import PricingComponent from "@/components/PricingComponent";
+import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -35,6 +36,47 @@ export default function Home() {
 
   return (
     <div>
+      <Head>
+        <title>
+          Jeep Merapi Lava Tour | Jelajah Merapi dengan Aman dan Nyaman
+        </title>
+        <meta
+          name="description"
+          content="Jeep Merapi Lava Tour | Jelajah keindahan wisata merapi dengan aman dan nyaman bersama kami. Reservasi 082326190711"
+          key="desc"
+        />
+        <meta
+          property="og:title"
+          content="Jeep Merapi Lava Tour | Jelajah keindahan wisata merapi dengan aman dan nyaman bersama kami. Reservasi 082326190711"
+          key="og:title"
+        />
+        <meta
+          property="og:description"
+          content="Jeep Merapi Lava Tour | Jelajah keindahan wisata merapi dengan aman dan nyaman bersama kami. Reservasi 082326190711"
+          key="og:desc"
+        />
+        <meta
+          property="og:image"
+          content="https://jeeptourlavamerapi.com/icon.jpeg"
+          key="og:image"
+        />
+        <meta
+          property="og:url"
+          content="https://jeeptourlavamerapi.com"
+          key="og:url"
+        />
+        <link rel="icon" href="/icon.png" sizes="any" />
+
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="theme-color" content="#ffffff" />
+        <meta name="robots" content="index, follow" />
+        <meta name="author" content="Jeep Merapi Lava Tour" />
+        <meta
+          name="keywords"
+          content="touring, reservation, jeep, merapi, merapi lava tour"
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      </Head>
       <header
         className={
           "flex flex-wrap md:justify-start md:flex-nowrap w-full text-sm transition-all" +
@@ -791,6 +833,15 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <a
+          title="Contact Sale"
+          className="fixed z-90 bottom-10 right-8 bg-amber-600 w-fit rounded-lg drop-shadow-lg flex justify-center items-center text-white text-lg font-semibold p-4 hover:bg-amber-700 hover:drop-shadow-2xl hover:animate-bounce duration-300"
+          href="https://wa.me/6282326190711?text=Halo%20Admin%20Jeep%20Merapi%20Lava%20Tour%2C%20saya%20mau%20pesan%20paket%20Short%201"
+          target="_blank"
+          rel="noopener"
+        >
+          <div>Reservasi 082326190711</div>
+        </a>
       </main>
       {/* <!-- ========== FOOTER ========== --> */}
       <footer className="mt-auto w-full max-w-[85rem] py-10 px-4 sm:px-6 lg:px-8 mx-auto">
