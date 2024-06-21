@@ -154,7 +154,7 @@ export default function Home() {
                 <a
                   href="https://wa.me/6285799907498?text=Halo%20Admin%20Jeep%20Merapi%20Lava%20Tour%2C%20saya%20mau%20pesan%20paket%20Short%201"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener"
                   className="mt-4 py-3 px-4 inline-flex items-center gap-x-2 text-base font-bold rounded-lg border border-solid border-amber-600 bg-white text-gray-800 shadow-xl hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none"
                 >
                   Pesan Sekarang
