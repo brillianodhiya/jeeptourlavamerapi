@@ -680,7 +680,7 @@ export default function Home() {
                 {
                   title: "Sunrise",
                   price: "450",
-                  duration: "start jam 5.30",
+                  duration: "start jam 4.30",
                   features: [],
                   button: "Hubungi Admin",
                   link: "https://wa.me/6282326190711?text=Halo%20Admin%20Jeep%20Merapi%20Lava%20Tour%2C%20saya%20mau%20pesan%20paket%20Sunrise%2C%20mohon%20info%20lebih%20lanjut",
