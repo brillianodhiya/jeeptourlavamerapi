@@ -66,6 +66,7 @@ export default function Home() {
           key="og:url"
         />
         <link rel="icon" href="/icon.png" sizes="any" />
+        {/* <link rel="apple-touch-icon" href="/icon.png" /> */}
 
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#ffffff" />
@@ -181,9 +182,9 @@ export default function Home() {
               </a>
               <a
                 className="py-3 ps-px sm:px-3 text-base text-gray-800 hover:text-gray-400 font-bold"
-                href="#lokasi"
+                href="#destinasi"
               >
-                Lokasi
+                Destinasi
               </a>
             </div>
           </div>
@@ -207,7 +208,7 @@ export default function Home() {
                   Reservasi 082326190711
                 </p>
                 <a
-                  href="https://wa.me/6282326190711?text=Halo%20Admin%20Jeep%20Merapi%20Lava%20Tour%2C%20saya%20mau%20pesan%20paket%20Short%201"
+                  href="https://wa.me/6282326190711?text=Halo admin Jeep Merapi Lava Tour"
                   target="_blank"
                   rel="noopener"
                   className="mt-4 py-3 px-4 inline-flex items-center gap-x-2 text-base font-bold rounded-lg border border-solid border-amber-600 bg-white text-gray-800 shadow-xl hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none"
@@ -276,7 +277,6 @@ export default function Home() {
                     height="24"
                     width="24"
                     version="1.1"
-                    id="Capa_1"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 353.926 353.926"
                   >
@@ -387,7 +387,6 @@ export default function Home() {
                     height="24"
                     width="24"
                     version="1.1"
-                    id="Capa_1"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 512.001 512.001"
                   >
@@ -516,7 +515,6 @@ export default function Home() {
                   <svg
                     fill="currentColor"
                     version="1.1"
-                    id="Capa_1"
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
                     height="24"
@@ -692,140 +690,329 @@ export default function Home() {
                 },
               ]}
             />
+
+            <div className="mt-5 sm:mt-10 lg:mt-14 lg:col-span-5">
+              <div className="space-y-6 sm:space-y-8 flex flex-col justify-center items-center">
+                <div className="space-y-2 md:space-y-4">
+                  <h2 className="font-bold text-3xl lg:text-4xl text-gray-800 text-center">
+                    Destinasi Alternatif
+                  </h2>
+                  <p className="text-gray-500 text-center">
+                    Destinasi alternatif yang bisa kamu kunjungi. Catatan:{" "}
+                    <span className="text-amber-600">
+                      Tiket masuk ditanggung pengunjung
+                    </span>
+                  </p>
+                </div>
+
+                <ul className="space-y-2 sm:space-y-4">
+                  <li className="flex space-x-3">
+                    <span className="mt-0.5 size-5 flex justify-center items-center rounded-full bg-amber-50 text-amber-600">
+                      <svg
+                        className="flex-shrink-0 size-3.5"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <polyline points="20 6 9 17 4 12" />
+                      </svg>
+                    </span>
+
+                    <span className="text-sm sm:text-base text-gray-500 ">
+                      <span className="font-bold capitalize">
+                        plunyon kalikuning
+                      </span>
+                    </span>
+                  </li>
+                  <li className="flex space-x-3">
+                    <span className="mt-0.5 size-5 flex justify-center items-center rounded-full bg-amber-50 text-amber-600">
+                      <svg
+                        className="flex-shrink-0 size-3.5"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <polyline points="20 6 9 17 4 12" />
+                      </svg>
+                    </span>
+
+                    <span className="text-sm sm:text-base text-gray-500 ">
+                      <span className="font-bold capitalize">stone henge</span>
+                    </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
         </section>
 
         {/* gallery */}
-        <section id="lokasi">
+        <section id="destinasi">
           <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14 mt-10">
             <h2 className="text-2xl font-bold md:text-4xl md:leading-tight">
-              Lokasi
+              Destinasi
             </h2>
             <p className="mt-1 text-gray-600">
               Beberapa spot di Lava Tour Merapi.
             </p>
           </div>
-          <div className="max-w-[90%] px-4 pb-10 sm:px-6 lg:px-8 lg:pb-14 mx-auto">
-            <div className="grid sm:grid-cols-12 gap-6">
-              <div className="sm:self-end col-span-12 sm:col-span-7 md:col-span-8 lg:col-span-5 lg:col-start-3">
+          <div className="max-w-full sm:max-w-[90%] px-4 pb-10 sm:px-6 lg:px-8 lg:pb-14 mx-auto">
+            <div className="flex flex-wrap items-center sm:items-start sm:grid sm:grid-cols-12 gap-6">
+              <div className="w-[45%] sm:w-full sm:self-end col-span-12 sm:col-span-7 md:col-span-8 lg:col-span-5 lg:col-start-3">
                 <a
                   className="group relative block rounded-xl overflow-hidden"
                   onClick={() => {
-                    openZoomedImage("/short1.jpeg");
+                    openZoomedImage("/spotfotojeep.jpeg");
                   }}
                 >
                   <div className="aspect-w-12 aspect-h-7 sm:aspect-none rounded-xl overflow-hidden">
                     <Image
-                      className="group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl w-full object-cover"
-                      src="/short1.jpeg"
-                      alt="contoh produk 1"
+                      className="group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl w-full object-cover h-52 md:h-full"
+                      src="/spotfotojeep.jpeg"
+                      alt="Spot Foto Jeep"
+                      width={1000}
+                      height={1000}
+                    />
+                  </div>
+                  <div className="absolute bottom-0 start-0 end-0 p-2 sm:p-4">
+                    <div className="text-sm font-bold text-gray-800 rounded-lg bg-white p-2 md:text-lg">
+                      Spot Foto Jeep
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div className="w-[45%] sm:w-full sm:self-end col-span-12 sm:col-span-5 md:col-span-4 lg:col-span-4">
+                <a
+                  className="group relative block rounded-xl overflow-hidden"
+                  // href="#"
+                  onClick={() => {
+                    openZoomedImage("/bungker kaliadem.jpeg");
+                  }}
+                >
+                  <div className="aspect-w-12 aspect-h-7 sm:aspect-none rounded-xl overflow-hidden">
+                    <Image
+                      className="group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl w-full object-cover h-52 md:h-full"
+                      src="/bungker kaliadem.jpeg"
+                      alt="Bungker Kaliadem"
+                      width={1000}
+                      height={1000}
+                    />
+                  </div>
+                  <div className="absolute bottom-0 start-0 end-0 p-2 sm:p-4">
+                    <div className="text-sm font-bold text-gray-800 rounded-lg bg-white p-2 md:text-lg">
+                      Bungker Kaliadem
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div className="w-[45%] sm:w-full col-span-12 md:col-span-4">
+                <a
+                  className="group relative block rounded-xl overflow-hidden"
+                  // href="#"
+                  onClick={() => {
+                    openZoomedImage("/batualien.jpeg");
+                  }}
+                >
+                  <div className="aspect-w-12 aspect-h-7 sm:aspect-none rounded-xl overflow-hidden">
+                    <Image
+                      className="group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl w-full object-cover h-52 md:h-full"
+                      src="/batualien.jpeg"
+                      alt="Batu Alien"
+                      width={1000}
+                      height={1000}
+                    />
+                  </div>
+                  <div className="absolute bottom-0 start-0 end-0 p-2 sm:p-4">
+                    <div className="text-sm font-bold text-gray-800 rounded-lg bg-white p-2 md:text-lg">
+                      Batu Alien
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div className="w-[45%] sm:w-full col-span-12 sm:col-span-6 md:col-span-4">
+                <a
+                  className="group relative block rounded-xl overflow-hidden"
+                  // href="#"
+                  onClick={() => {
+                    openZoomedImage("/the lost world park.jpeg");
+                  }}
+                >
+                  <div className="aspect-w-12 aspect-h-7 sm:aspect-none rounded-xl overflow-hidden">
+                    <Image
+                      className="group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl w-full object-cover h-52 md:h-[50vh]"
+                      src="/the lost world park.jpeg"
+                      alt="The Lost World Park"
+                      width={1000}
+                      height={1000}
+                    />
+                  </div>
+                  <div className="absolute bottom-0 start-0 end-0 p-2 sm:p-4">
+                    <div className="text-sm font-bold text-gray-800 rounded-lg bg-white p-2 md:text-lg">
+                      The Lost World Park
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div className="w-[45%] sm:w-full col-span-12 sm:col-span-6 md:col-span-4">
+                <a
+                  className="group relative block rounded-xl overflow-hidden"
+                  // href="#"
+                  onClick={() => {
+                    openZoomedImage("/petilasan rumah mbah maridjan.jpeg");
+                  }}
+                >
+                  <div className="aspect-w-12 aspect-h-7 sm:aspect-none rounded-xl overflow-hidden">
+                    <Image
+                      className="group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl w-full object-cover h-52 md:h-full"
+                      src="/petilasan rumah mbah maridjan.jpeg"
+                      alt="Petilasan Rumah Mbah Mardjan"
+                      width={1000}
+                      height={1000}
+                    />
+                  </div>
+                  <div className="absolute bottom-0 start-0 end-0 p-2 sm:p-4">
+                    <div className="text-sm font-bold text-gray-800 rounded-lg bg-white p-2 md:text-lg">
+                      Petilasan Rumah Mbah Mardjan
+                    </div>
+                  </div>
+                </a>
+              </div>
+              {/* next */}
+              <div className="w-[45%] sm:w-full sm:self-end col-span-12 sm:col-span-7 md:col-span-8 lg:col-span-5 lg:col-start-3">
+                <a
+                  className="group relative block rounded-xl overflow-hidden"
+                  onClick={() => {
+                    openZoomedImage("/museum mini sisa hartaku.jpeg");
+                  }}
+                >
+                  <div className="aspect-w-12 aspect-h-7 sm:aspect-none rounded-xl overflow-hidden">
+                    <Image
+                      className="group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl w-full object-cover h-52 md:h-full"
+                      src="/museum mini sisa hartaku.jpeg"
+                      alt="Museum Mini Sisa Hartaku"
                       width={800}
                       height={500}
                     />
                   </div>
                   <div className="absolute bottom-0 start-0 end-0 p-2 sm:p-4">
-                    <div className="text-sm font-bold text-gray-800 rounded-lg bg-white p-4 md:text-xl">
-                      Lokasi 1
+                    <div className="text-sm font-bold text-gray-800 rounded-lg bg-white p-2 md:text-lg">
+                      Museum Mini Sisa Hartaku
                     </div>
                   </div>
                 </a>
               </div>
 
-              <div className="sm:self-end col-span-12 sm:col-span-5 md:col-span-4 lg:col-span-3">
+              <div className="w-[45%] sm:w-full sm:self-end col-span-12 sm:col-span-5 md:col-span-4 lg:col-span-4">
                 <a
                   className="group relative block rounded-xl overflow-hidden"
                   // href="#"
                   onClick={() => {
-                    openZoomedImage("/short2.jpeg");
+                    openZoomedImage("/track air kali kuning.jpeg");
                   }}
                 >
                   <div className="aspect-w-12 aspect-h-7 sm:aspect-none rounded-xl overflow-hidden">
                     <Image
-                      className="group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl w-full object-cover"
-                      src="/short2.jpeg"
-                      alt="contoh produk 3"
-                      width={500}
-                      height={800}
+                      className="group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl w-full object-cover h-52 md:h-full"
+                      src="/track air kali kuning.jpeg"
+                      alt="Track Air Kali Kuning"
+                      width={1000}
+                      height={1000}
                     />
                   </div>
                   <div className="absolute bottom-0 start-0 end-0 p-2 sm:p-4">
-                    <div className="text-sm font-bold text-gray-800 rounded-lg bg-white p-4 md:text-xl">
-                      Lokasi 2
+                    <div className="text-sm font-bold text-gray-800 rounded-lg bg-white p-2 md:text-lg">
+                      Track Air Kali Kuning
                     </div>
                   </div>
                 </a>
               </div>
 
-              <div className="col-span-12 md:col-span-4">
+              <div className="w-[45%] sm:w-full col-span-12 md:col-span-4">
                 <a
                   className="group relative block rounded-xl overflow-hidden"
                   // href="#"
                   onClick={() => {
-                    openZoomedImage("/short3.jpeg");
+                    openZoomedImage("/sunrise.jpeg");
                   }}
                 >
                   <div className="aspect-w-12 aspect-h-7 sm:aspect-none rounded-xl overflow-hidden">
                     <Image
-                      className="group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl w-full object-cover"
-                      src="/short3.jpeg"
-                      alt="contoh produk 2"
-                      width={800}
-                      height={400}
+                      className="group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl w-full object-cover h-52 md:h-full"
+                      src="/sunrise.jpeg"
+                      alt="Sunrise Merapi"
+                      width={1000}
+                      height={1000}
                     />
                   </div>
                   <div className="absolute bottom-0 start-0 end-0 p-2 sm:p-4">
-                    <div className="text-sm font-bold text-gray-800 rounded-lg bg-white p-4 md:text-xl">
-                      Lokasi 3
+                    <div className="text-sm font-bold text-gray-800 rounded-lg bg-white p-2 md:text-lg">
+                      Sunrise Merapi
                     </div>
                   </div>
                 </a>
               </div>
 
-              <div className="col-span-12 sm:col-span-6 md:col-span-4">
+              <div className="w-[45%] sm:w-full col-span-12 sm:col-span-6 md:col-span-4">
                 <a
                   className="group relative block rounded-xl overflow-hidden"
                   // href="#"
                   onClick={() => {
-                    openZoomedImage("/medium1.jpeg");
+                    openZoomedImage("/plunyon kalikuning.jpeg");
                   }}
                 >
                   <div className="aspect-w-12 aspect-h-7 sm:aspect-none rounded-xl overflow-hidden">
                     <Image
-                      className="group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl w-full object-cover"
-                      src="/medium1.jpeg"
-                      alt="contoh produk 4"
-                      width={800}
-                      height={400}
+                      className="group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl w-full object-cover h-52 md:h-[50vh]"
+                      src="/plunyon kalikuning.jpeg"
+                      alt="Plunyon Kalikuning"
+                      width={1000}
+                      height={1000}
                     />
                   </div>
                   <div className="absolute bottom-0 start-0 end-0 p-2 sm:p-4">
-                    <div className="text-sm font-bold text-gray-800 rounded-lg bg-white p-4 md:text-xl">
-                      Lokasi 4
+                    <div className="text-sm font-bold text-gray-800 rounded-lg bg-white p-2 md:text-lg">
+                      Plunyon Kalikuning
                     </div>
                   </div>
                 </a>
               </div>
 
-              <div className="col-span-12 sm:col-span-6 md:col-span-4">
+              <div className="w-[45%] sm:w-full col-span-12 sm:col-span-6 md:col-span-4">
                 <a
                   className="group relative block rounded-xl overflow-hidden"
                   // href="#"
                   onClick={() => {
-                    openZoomedImage("/medium2.jpeg");
+                    openZoomedImage("/stonehenge.jpeg");
                   }}
                 >
                   <div className="aspect-w-12 aspect-h-7 sm:aspect-none rounded-xl overflow-hidden">
                     <Image
-                      className="group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl w-full object-cover"
-                      src="/medium2.jpeg"
-                      alt="contoh produk 5"
-                      width={800}
-                      height={400}
+                      className="group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl w-full object-cover h-52 md:h-full"
+                      src="/stonehenge.jpeg"
+                      alt="Stone Henge"
+                      width={1000}
+                      height={1000}
                     />
                   </div>
                   <div className="absolute bottom-0 start-0 end-0 p-2 sm:p-4">
-                    <div className="text-sm font-bold text-gray-800 rounded-lg bg-white p-4 md:text-xl">
-                      Lokasi 5
+                    <div className="text-sm font-bold text-gray-800 rounded-lg bg-white p-2 md:text-lg">
+                      Stone Henge
                     </div>
                   </div>
                 </a>
@@ -835,12 +1022,29 @@ export default function Home() {
         </section>
         <a
           title="Contact Sale"
-          className="fixed z-90 bottom-10 right-8 bg-amber-600 w-fit rounded-lg drop-shadow-lg flex justify-center items-center text-white text-lg font-semibold p-4 hover:bg-amber-700 hover:drop-shadow-2xl hover:animate-bounce duration-300"
-          href="https://wa.me/6282326190711?text=Halo%20Admin%20Jeep%20Merapi%20Lava%20Tour%2C%20saya%20mau%20pesan%20paket%20Short%201"
+          className="fixed z-90 bottom-10 right-8 bg-amber-600 w-fit rounded-full drop-shadow-lg flex justify-center items-center text-white text-lg font-semibold p-4 hover:bg-amber-700 hover:drop-shadow-2xl hover:animate-bounce duration-300"
+          href="https://wa.me/6282326190711?text=Halo admin Jeep Merapi Lava Tour"
           target="_blank"
           rel="noopener"
         >
-          <div>Reservasi 082326190711</div>
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M6.014 8.00613C6.12827 7.1024 7.30277 5.87414 8.23488 6.01043L8.23339 6.00894C9.14051 6.18132 9.85859 7.74261 10.2635 8.44465C10.5504 8.95402 10.3641 9.4701 10.0965 9.68787C9.7355 9.97883 9.17099 10.3803 9.28943 10.7834C9.5 11.5 12 14 13.2296 14.7107C13.695 14.9797 14.0325 14.2702 14.3207 13.9067C14.5301 13.6271 15.0466 13.46 15.5548 13.736C16.3138 14.178 17.0288 14.6917 17.69 15.27C18.0202 15.546 18.0977 15.9539 17.8689 16.385C17.4659 17.1443 16.3003 18.1456 15.4542 17.9421C13.9764 17.5868 8 15.27 6.08033 8.55801C5.97237 8.24048 5.99955 8.12044 6.014 8.00613Z"
+              fill="currentColor"
+            />
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M12 23C10.7764 23 10.0994 22.8687 9 22.5L6.89443 23.5528C5.56462 24.2177 4 23.2507 4 21.7639V19.5C1.84655 17.492 1 15.1767 1 12C1 5.92487 5.92487 1 12 1C18.0751 1 23 5.92487 23 12C23 18.0751 18.0751 23 12 23ZM6 18.6303L5.36395 18.0372C3.69087 16.4772 3 14.7331 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12C21 16.9706 16.9706 21 12 21C11.0143 21 10.552 20.911 9.63595 20.6038L8.84847 20.3397L6 21.7639V18.6303Z"
+              fill="currentColor"
+            />
+          </svg>
         </a>
       </main>
       {/* <!-- ========== FOOTER ========== --> */}
@@ -858,7 +1062,7 @@ export default function Home() {
 
           <div className="mt-3">
             <p className="text-gray-500">
-              © Aitilokal. 2024 Jeep Merapi Lava Tour. All rights reserved.
+              © Jeep Merapi Lava Tour 2024. All rights reserved.
             </p>
           </div>
 
