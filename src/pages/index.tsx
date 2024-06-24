@@ -604,6 +604,7 @@ export default function Home() {
                   features: [
                     "Spot Foto Jeep",
                     "⁠Petilasan Rumah Mbah Maridjan/Museum Mini Sisa Hartaku/The Lost World Park/Batu Alien",
+                    "Bungker Kaliadem",
                     "⁠Track Air Kalikuning",
                   ],
                   button: "Pesan Sekarang",
