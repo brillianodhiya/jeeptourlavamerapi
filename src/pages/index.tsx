@@ -193,25 +193,25 @@ export default function Home() {
 
       <main id="content">
         <section id="home">
-          <div className="w-full min-h-[600px] relative overflow-hidden">
+          <div className="w-full min-h-[600px] relative overflow-hidden flex items-center justify-center">
             {/* overlay */}
-            <div className="absolute inset-0 bg-black bg-opacity-50 z-10"></div>
+            {/* <div className="absolute inset-0 bg-black bg-opacity-50 z-10"></div> */}
             {/* text */}
             <div className="absolute inset-0 flex items-center justify-center text-white text-center z-20">
               <div className="flex flex-col justify-center items-center">
-                <h1 className="text-4xl font-bold">Jeep Merapi Lava Tour</h1>
+                {/* <h1 className="text-4xl font-bold">Jeep Merapi Lava Tour</h1>
                 <p className="text-lg mt-3">
                   Jelajah keindahan wisata merapi dengan aman dan nyaman bersama
                   kami
                 </p>
                 <p className="text-2xl mt-10 font-medium">
                   Reservasi 082326190711
-                </p>
+                </p> */}
                 <a
                   href="https://wa.me/6282326190711?text=Halo admin Jeep Merapi Lava Tour"
                   target="_blank"
                   rel="noopener"
-                  className="mt-4 py-3 px-4 inline-flex items-center gap-x-2 text-base font-bold rounded-lg border border-solid border-amber-600 bg-white text-gray-800 shadow-xl hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none"
+                  className="absolute bottom-[20%] mt-4 py-3 px-4 inline-flex items-center gap-x-2 text-base font-bold rounded-lg border border-solid border-amber-600 bg-white text-gray-800 shadow-xl hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none"
                 >
                   Pesan Sekarang
                   <svg
@@ -233,28 +233,16 @@ export default function Home() {
               </div>
             </div>
             {/* image */}
-            {/* <Image
-              alt="banner-background"
-              src={"/banner.jpeg"}
-              width={1200}
-              height={600}
-              className="w-full max-h-[600px] object-cover object-center absolute bg-bottom"
-              layout="responsive"
-              // objectFit="contain"
-              // objectPosition="center"
-            /> */}
-            <div
-              style={{
-                backgroundImage: `url(/banner.jpeg)`,
-                backgroundRepeat: "no-repeat",
-                backgroundSize: "cover",
-                backgroundPosition: "center",
-                // zIndex: 10,
-                width: "100%",
-                height: "100%",
-                position: "absolute",
-              }}
-            ></div>
+            <div className="w-full h-full flex items-center justify-center">
+              <Image
+                alt="banner-background"
+                src={"/banner_jeep_merapi_lava_tour.jpeg"}
+                width={1200}
+                height={600}
+                className="w-full h-full object-contain"
+                priority
+              />
+            </div>
           </div>
         </section>
 
